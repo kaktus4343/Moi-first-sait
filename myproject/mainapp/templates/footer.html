@@ -1,0 +1,43 @@
+
+
+{%load static%}
+
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row text-white">
+				<div class="col-lg-4">
+					<div class="footer-widger">
+						<div class="about-widget">
+							<div class="aw-text">
+								<img style="margin-top: 80px;width:40000px " src="{% static  'img/logo2.png'%}" alt="">
+<!--	это кнопка							<a href="#" class="site-btn"></a>-->
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="col-lg-2 col-md-3 col-sm-6">
+					<div class="footer-widger">
+						<h2>You can contact us</h2>
+						<ul>
+							<li><a href="#"><a href="tel:+972 53 386 9445"a>call us <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC70lEQVR4nL2Xy08TURTGx9fGqIkLjXv3JkbXstM/QGuMWhr6nlpWtECd6UwbIkhRiVBokNLH3Jmi0hIftKUtbKQoKySGjZEWMBSILaYbJDGpYw5koEBpWjLDl5xN05lfz73nfPmKYSWkdJvPyt3m6w9Q/TnsqKRD5B0jZ8u0RLuyxkF7RuMn5JJDNV7yXsNQazaaTvDxhXF+dH6Mbww9XdMxhEpyaCQd34QKtQV35NR+QiM6VOkmbjYEdzrdWwA3B9tzonZO0/RxnKUWw3OxktDd8LZs3YClRhRwbb/pii3c+ascVKj33yO8nqUmRAHL3U1X7ZGX2UrBBpb+JAq4hqZPGjjbUmx+rKKjVvqIG5hY0jCE49UU+7cctDHULv5k3+9tPl8fsK/E549oooul9ZMdrs/+jX3QkIRQkLaPPq1nqZ+R1I6BuCaZgsrzuAuTWloPoXgS68kL4HAqxuOImoNdl5bMY8e0jPVLYGa4IMAd46682ivhUQt62Ntw0cDRy5HUlpONphP8I862BJ9jUkuNLHepkc41oWv2a7CgQ+QU7LzkcBxZuZ6k748A70761vWM9XUlz4Kf44hO4hyVrNpwZG9lJ3CWmkDTwe37bh9z5fWM9U25zmH1TMG2HNgrFLidxk8qq18xRM8Ofhv+J8CdSd86HHvdgOVCKSiYDez/XgPSVAsHgA5RqWI4mh4qwACqUJNaWLVSUFHgekTPAlB4GSQVWDX4UUqvpfsg6H44Ia/62OHOeyZ3Bk4wGXC4ctBiuDFgW646vcLA6ZGVpT68+B2e253NKq2WaFdW0d98DTuMVAwhgzsOzIS2j76SiqTjvIGzZWRO+gx2WCm8pktgr60JZ76S7qPpBA+BEnI7JoY0jPU2zlELzgnPxkEpBmzXHGrLqRChwMQUDJ4WkR3GgH1lM8kUBYqPP0Z5yOuQ20WFFguSjI6xOnDWlqFGnq+S756t6hC5KPc03pIMWixtn/YU/Omr7TNdPuhL/wGLCqLKoGZYfgAAAABJRU5ErkJggg=="></a>
+								<br>  </a></li>
+							<li><a href="https://www.facebook.com/share/8uYGBjVybqxbAnYH/?mibextid=qi2Omg">faceBook<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAADHklEQVR4nM2W7U9SYRTAmX9Xa2v9AzmmBNYHsUSum8s+KkqCKJMEvVyv5uZWH5L6oB8aC2UC95ZNWl7ArVnrky9NyyUEWIYCp52n7crL5frgYOtsZ2P33vP8OOc5bxrN/yxWK7SYZ6Q7xsmNN3qHmGq3reVahwKA2m4L5fBZpzsq9vAxQ8OA91nJgyCdPQy9/BYM+HZhZOkAnP4kUfw96NsBZjYB+A1+a5qWHqPtlaDmJ/EbOnvkxDAmwuCLXXAFflIp/jHDuAj60XCWmZOu1wXtYTf7tI+ChYcLn2DiNR2wVNGmf2Eb8AwTG++ngpo4qV87vAoWH72Xat5rh1eLPVysTxWKodEOBwv1hHYqmIZn77Lge38CT9ezMC9kYHLl4r3l5R7xnOG2bipCMRnwTjG8NEDvWho+fs1BvgBV8nwjW/Ythl3vEDKKCdfNSlOYSDR36gmm4SiTrybWAOOZmHD3WMlV5S2WAW2IQ9unNaFKYFQsOaz58izmEndvj0ao73X/+LwMhN77oicwL2aIelaV7XT2MDBsTC+Dje7oW2Z2ixr8O1csA2Ni0dgxfAKM7qggg7HlYShowYVyLslsqvJa3IEOh5CUwW0ja2e25UNqcLECTGtnWz4kLVUG37IEith3mw12+pOALBncOrRSdPqPaxoIn9WzuFLmIhnFc8b9x9BaCkb31UJdD/gsX6x5zsjSQXlJdYyLSbXkqgf8LZ2nT65Od1TEeVrL4FX8F+z8OJe1UkrfrX85VSmnOHS5N8IXDYSPGXT2UNOTS2cPg5mPt1W1TBxjzQIPLJKW+adqSOC6YhgTwBVINQGcAhxAJm7TqTgWcV3BEdZo8AMci2NCuuYexnCJazi0Lwt5PWCsFlwucIdThMqJxsX6cF1Rg9OC8V7J6uPd7NXQSLc33oue/wt76grgFAkvWXn4S/Ytpf0L1xWy3lY0FzUweql3CORO8eo0VxGrFVpwXcE2R4Y4nyAH733PwmkuT3T/KEueMTO40IdIyZimP0xoGiUMG9PjEMeW1+WKFNqsK4CKv/GZ0R2NmGcSuoYBmyV/AcGiLPFMCCqsAAAAAElFTkSuQmCC"></a></li>
+							<li><a href="https://wa.me/+972533869445">whatsApp <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFRElEQVR4nLWXW08bRxSA3aiVoqqqWlXqVZXap/alUitV/RPtWx8qVa0q9aFSX9ukSYBk49he29whxvYa4wXiy/qSQBXFBpNAQsKd1tjEhBhIAONdgy+JjU3BgKc64+7Gay7BRD3SvMzsOd/MmXOZlUjKFIIgTlTUU++dqTV+8Yeq9auKuvYPfqGoVyT/h1TWmj4kNFfOKvWMv7bNxVFMD2tzD8bsnnvxVmcvV0dfY0nK9uBSi1V5rpb69IWBv9do31Zoreamzu7ocGB+J7a+hdI5tO9IbOygyQeLeT3jXlXobJ7KGsPHx4JebDZ/p251cr5QeLcY8HRrF0UyaRRKRPCIZFJ4rvib2eU11EB3rUpbLL+VBVVoLSqjszcOp+CN+bgQMvtdSDqgROe8F0QD5q5MudAUF3q2wc1dxLjvPlVobVaCIF5+LlTeYpE5vUOp1H8G5pIc0o4Z98AOGtrxNqzDb+Dm6HRW3mK1HAolGju+0TGeWGorj5XGI0F0/pbsyFB+nL95CY2EpwS43XM3JdPZTu0PbbryuoqyRxLZbfzxWGQaVXiJsqH8AN2xyH3B7Q101+oZJf3Rfi7WjAUXcrx7i08q7SdR22Q7Im9XlwW/cEuO5p9EMfxheA2ReqtbfNoG+g3IT/5e9eMmQflivwKtZWII5FHycdknh/jgXa5nbqyeVhs/EcCV9aaf+kanN2ARIrNYsX/hNiqW5hFt2fCp6BwGQ57LtBZSAJN6ZjAcX8eLkDLFSvOJRyLwWHiibDDY5IsMqWdmBLDa4Fjii0Npns7GQiKwnwuUDQabfJGB8orzGop+rcnFwiRUoVKlnpBXgD79J4Xkt9XHivJIJo3BBkcPB41Fcq6x9R0dcwODoQSWKsgGVCiby2JwajONg+044FAiUsjp3nux02rjlxJocQa7G4Nn4+F9lRzTV4VTT0eDqKKv/PwOJVkMtnnurFVUGz6XEAR9sqm9G4OX08kDFcdXJkUBVtl3UbTe/rcZKQ65BjZTCF6KucFC18PBpaKYRZiEUkkc4MqqPqko0B4lF1HjsAavuYLdeC63k0PDy6NIeadWpHtpQIVtA6OmzQnBdaKQTpTtzkoygxc6fMyBuwb4FOcX4Pl8Hm9ge3dbFPmxTEykZw10Ydtr6U2k1Nt8RQWE/tE7HMgW2t/DQ+8K7tcT8u6BFctsTGzDH53H4CF/aEd6ufNZsyA0mtfUBgcL7kjl8qhpRP/cYFEP1mG3buQ2RNB4No7qh5qF76gJWiiZDR1d0dNq4/viJqGx1o1Mz+MmEYjOl9UCoYFcC/6JOnxmUdBBk1h4soqhfz1c2lForfSe7lTV0PHzwGRwEz6aYGeOlaulVwJ2cKnMbqPqVgd7lux4aw+Y1DE3l+OF6uK8f/2FoHDScTaIbUHHa7vqTUgvd3679xWA0EsqyrHC34V6sBHVD2nQ1Rk3GlyaRI3DuiND9RO04F6IGUfvvRTZYpHt9/iQwOPcfH1gjf+YXS+cnB8QcPDY6/TZ981zyFOL/5oQvQX35hBl98TlB0FB5BqzdGLmcb70rbzAJdHUXFhIfn4T4XQSl9e5BIs3CXPP1hEaDsxtqQzMyvlm+mvJYULqGD881lcS62jQN5trdfZwKopZIimmW6a16CDV+kYDWVg/6EEfjqdR74h/o8bo4uRaSz2k6KFQgqBeraqns3DHSsrWf6Gp/dfSvwAwUtXY9gNJMQMqg/1xQ3sXR9ndLHS1GpOLVVH2RdCtqjN9D4/GQ4G8nFVq3zxTZ/oMAuxICniz9MlT1fS70FKPqlMq/wLsGmA/47WN1wAAAABJRU5ErkJggg==">
+							<li><a href="tel:+972 53 386 9445">+972 53 386 9445</a></li>
+						</ul>
+					</div>
+					</div>
+			</div>
+			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+ &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved    <a href="" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+		</div>
+	</footer>
+	<!-- Footer Section end -->
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="{% static  'js/jquery-3.2.1.min.js'%}"></script>
+	<script src="{% static  'js/bootstrap.min.js'%}"></script>
+	<script src="{% static  'js/jquery.slicknav.min.js'%}"></script>
+	<script src="{% static  'js/jquery.magnific-popup.min.js'%}"></script>
+	<script src="{% static  'js/main.js'%}"></script>

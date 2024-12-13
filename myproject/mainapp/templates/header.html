@@ -1,0 +1,47 @@
+	<!-- Header Section -->
+	{%load static%}
+
+	<header class="header-section">
+		<a href="/" class="site-logo">
+			<img src="{% static 'img/logo.png' %}" alt="">
+		</a>
+		<nav class="header-nav">
+			<ul class="main-menu">
+				<li><a href="/" class="active">Home</a></li>
+<!--					<ul class="sub-menu">-->
+<!--						<li><a href="search-result.html">Search Result</a></li>-->
+<!--						<li><a href="single-property.html">Property</a></li>-->
+<!--					</ul>-->
+<!--				</li>-->
+				<li><a href="works">Works</a></li>
+				<li><a href="contact">Contact</a></li>
+			</ul>
+			<div class="header-right">
+				<div class="user-panel">
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Header Section end -->
+
+	<!-- Hero Section end -->
+	<section class="hero-section set-bg" data-setbg="{% static 'img/hero-bg.jpeg' %}">
+		<div class="container">
+			<div class="hero-warp">
+				<form class="main-search-form">
+					<div class="search-type">
+						<div class="st-item">
+							<input type="radio" name="st" id="buy" checked>
+									<div class="st-item">
+							<input type="radio" name="st" id="agents">
+						</div>
+					</div>
+					<div class="search-input">
+						<input type="text" placeholder="Search ">
+						<button class="site-btn">Search</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- Hero Section end -->
